@@ -24,7 +24,7 @@ But Convert *HUGE* struct is too hard.
 Then you can using this tools.
 # Usage:
 ```
-data = '''F_OS_SEND_FILLDATA
+struct_data_in_c = '''F_OS_SEND_FILLDATA
 {
     char account[14];
     int ord_match_qty;
@@ -33,9 +33,11 @@ data = '''F_OS_SEND_FILLDATA
     unsigned char update_qty;
     char first_login;
 }'''
-actor = CStructPyHelper(self.data)
+actor = CStructPyHelper(struct_data_in_c)
 print actor.get_full_fmt()
+print actor.get_member_list()
 ```
 ```
 14si5BiBc
+['account', 'ord_match_qty', 'ord_match_amt', 'ord_match_avg_prc', 'update_qty', 'first_login']
 ```
