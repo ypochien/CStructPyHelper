@@ -42,3 +42,5 @@ print actor.get_member_list()
 14si5BiBc
 ['account', 'ord_match_qty', 'ord_match_amt', 'ord_match_avg_prc', 'update_qty', 'first_login']
 ```
+
+### python struct - https://docs.python.org/2/library/struct.html
