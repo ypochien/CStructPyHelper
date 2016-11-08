@@ -1,3 +1,6 @@
+# coding=UTF-8
+# __author__ == ypochien@gmail.com
+
 import unittest
 
 from CStructPyHelper import CStructPyHelper

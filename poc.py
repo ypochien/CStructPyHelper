@@ -1,5 +1,5 @@
 # coding=UTF-8
-# __author__ == ypochien
+# __author__ == ypochien@gmail.com
 
 src_struct = '''
 F_OS_SEND_FILLDATA

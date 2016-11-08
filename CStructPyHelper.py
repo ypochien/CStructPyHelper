@@ -1,3 +1,6 @@
+# coding=UTF-8
+# __author__ == ypochien@gmail.com
+
 class CStructPyHelper(object):
     _struct_format_table = {
         'pad byte': 'x',
